@@ -1,0 +1,18 @@
+# Binaries
+library-service
+*.exe
+*.dll
+
+# Build artifacts
+/dist/
+bin/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
