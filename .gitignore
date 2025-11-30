@@ -1,7 +1,7 @@
 # Binaries
-library-service
 *.exe
 *.dll
+/library-service
 
 # Build artifacts
 /dist/
