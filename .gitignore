@@ -19,3 +19,7 @@ bin/
 
 # Environment
 .env
+
+# Air
+tmp/
+.air.toml

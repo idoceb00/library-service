@@ -19,11 +19,11 @@ services:
     ports:
       - "${API_PORT}:8080"
     environment:
-      DB_HOST: ${PGHOST}
-      DB_USER: ${PGUSER}
-      DB_PASSWORD: ${PGPASSWORD}
-      DB_NAME: ${PGDATABASE}
-      DB_PORT: ${PGPORT}
+      PGHOST: ${PGHOST}
+      PGUSER: ${PGUSER}
+      PGPASSWORD: ${PGPASSWORD}
+      PGDATABASE: ${PGDATABASE}
+      PGPORT: ${PGPORT}
     restart: on-failure
 
 volumes:
