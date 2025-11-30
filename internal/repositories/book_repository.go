@@ -19,8 +19,8 @@ func (r *BookRepository) FindAll() ([]models.Book, error) {
 	return books, result.Error
 }
 
-func (r *BookRepository) FindById(id uint) (models.Book, error) {
-	var book models.Book
+func (r *BookRepository) FindById(id uint) (*models.Book, error) {
+	var book *models.Book
 	result := r.db.First(&book, id)
 	return book, result.Error
 }
